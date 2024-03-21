@@ -1,0 +1,48 @@
+<!-- add_student_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Numéro de l'étudiant :"/>
+    <EditText
+        android:id="@+id/numberEditTextUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de l'étudiant"
+        android:inputType="none"
+        />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Nom de l'étudiant"/>
+    <EditText
+        android:id="@+id/nameEditTextUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: John"/>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Moyenne de l'étudiant"/>
+    <EditText
+        android:id="@+id/averageEditTextUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: 12.5"
+        android:inputType="numberDecimal"
+        />
+
+</LinearLayout>
